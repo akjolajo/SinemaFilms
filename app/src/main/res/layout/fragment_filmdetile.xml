@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.film_detail.FilmDetailFragment">
+
+    <ImageView
+        android:id="@+id/image_sinema"
+        android:layout_width="180dp"
+        android:layout_height="180dp"/>
+    <TextView
+        android:id="@+id/id"
+        tools:text="ID"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/title_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"/>
+    <TextView
+        android:id="@+id/description_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"/>
+</LinearLayout>
